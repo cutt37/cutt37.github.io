@@ -1,5 +1,4 @@
-# Version ver_0.0.2a
-___填加视频网站项___
-___添加背景阴影___
+# Version ver_0.0.2b
 
-# Link [访问](cutt37.w3spaces.com)
+# Link [访问](https://cutt37.w3spaces.com)
+# Link [访问github](https://cutt37.github.io)
