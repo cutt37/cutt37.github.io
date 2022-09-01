@@ -1,1 +1,36 @@
+a:link, a:visited {
+    display: block;
+    color: black;
+    text-decoration: none;
+}
 
+a:active {
+    color: grey
+}
+
+#repo:hover span, 
+#update:hover span {
+    padding-left: 10%;
+}
+
+#repo:hover span:before, 
+#update:hover span:before {
+    opacity: 1;
+    left: 0;
+}
+
+#repo:hover, 
+#update:hover, 
+#archlinux:hover, 
+#iqiyi:hover, 
+#le:hover,
+#bilibili:hover,
+#vqq:hover, 
+#youku:hover, 
+#email:hover, 
+#translate:hover {
+    opacity: 0.75;
+    background-color: lightgrey;
+    box-shadow: 5px 5px 5px grey;
+    transition: all .15s linear .2s;
+}
