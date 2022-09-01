@@ -1,0 +1,16 @@
+.content {
+    border: 0.5px solid lightgrey;
+}
+
+.section {
+    overflow-x: auto;
+    overflow-y: auto;
+}
+
+.section::-webkit-scrollbar {
+    display: none;
+}
+
+li {
+    list-style-type: none;
+}

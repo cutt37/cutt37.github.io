@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    border-radius: 5%;
+}
+
+header, aside, article, footer {
+    padding: 0.5%;
+    cursor: default;
+    border: 0.5px solid lightgrey;
+}
+
+header {
+    border-radius: 10px 10px 0 0;
+    background-color: whitesmoke;
+}
+
+#head {
+    font-size: 20px;
+}
+
+aside {
+    width: 15%;
+    float: left;
+    height: 575px;
+    background-color: rgb(190, 190, 190);
+}
+
+article {
+    width: 85%;
+    float: right;
+    height: 575px;
+    background-color: whitesmoke;
+}
+
+footer {
+    color: white;
+    text-align: center;
+    background-color: grey;
+    border-radius: 0 0 10px 10px;
+}
+
+@media (max-width: 100px) {
+    aside, article { 
+        width: auto;
+        height: auto;
+        overflow: auto;
+    }
+}
+
+li {
+    list-style-type: none;
+}

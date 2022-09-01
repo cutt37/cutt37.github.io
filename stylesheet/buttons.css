@@ -1,0 +1,39 @@
+#home, #repo, #update {
+    padding: 2%;
+    font-size: 20px;
+    text-align: left;
+    border-radius: 10px;
+    border: 0.5px solid lightgrey;
+}
+
+#home {
+    cursor: default;
+    background-color: rgb(233, 233, 233);
+} 
+
+#repo, #update {
+    background-color: whitesmoke;
+}
+
+#repo span, #update span {
+    position: relative;
+    transition: .2s;
+}
+
+#repo span:before, #update span:before {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    left: -5px;
+    transition: .2s;
+}
+
+#archlinux, #bilibili, #email, 
+#translate, #iqiyi, #vqq, #le, 
+#youku {
+    padding: 0.5%;
+    margin-right: 50%;
+    border-radius: 5px;
+    border: 0.5px solid lightgrey;
+    background-color: rgb(190, 190, 190);
+}
