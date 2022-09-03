@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+html {
+    display: block;
+}
+
 body {
     border-radius: 5%;
 }
