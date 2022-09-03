@@ -2,10 +2,6 @@
     box-sizing: border-box;
 }
 
-html {
-    display: block;
-}
-
 body {
     margin: 0;
     border-radius: 5%;
@@ -37,7 +33,6 @@ article {
     width: 85%;
     float: right;
     height: 575px;
-    display: block;
     background-color: whitesmoke;
 }
 
