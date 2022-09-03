@@ -28,9 +28,8 @@
     transition: .2s;
 }
 
-#archlinux, #bilibili, #email, 
-#translate, #iqiyi, #vqq, #le, 
-#youku {
+#archlinux, #email, 
+#translate, .video_website {
     padding: 0.5%;
     margin-right: 50%;
     border-radius: 5px;
