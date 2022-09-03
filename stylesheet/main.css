@@ -37,6 +37,7 @@ article {
     width: 85%;
     float: right;
     height: 575px;
+    display: block;
     background-color: whitesmoke;
 }
 
