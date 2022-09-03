@@ -22,11 +22,7 @@ a:active {
 #repo:hover, 
 #update:hover, 
 #archlinux:hover, 
-#iqiyi:hover, 
-#le:hover,
-#bilibili:hover,
-#vqq:hover, 
-#youku:hover, 
+.video_website:hover, 
 #email:hover, 
 #translate:hover {
     opacity: 0.75;
