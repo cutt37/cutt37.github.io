@@ -18,6 +18,7 @@
 #repo span, #update span {
     position: relative;
     transition: .2s;
+    -webkit-transition: .2s;
 }
 
 #repo span:before, #update span:before {
@@ -26,6 +27,7 @@
     opacity: 0;
     left: -5px;
     transition: .2s;
+    -webkit-transition: .2s;
 }
 
 #archlinux, #email, 
