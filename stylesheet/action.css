@@ -29,4 +29,5 @@ a:active {
     background-color: lightgrey;
     box-shadow: 5px 5px 5px grey;
     transition: all .15s linear .2s;
+    -webkit-transition: all .15s linear .2s;
 }
