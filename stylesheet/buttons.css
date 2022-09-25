@@ -11,14 +11,11 @@
     background-color: rgb(233, 233, 233);
 } 
 
-#repo, #update {
-    background-color: whitesmoke;
-}
-
 #repo span, #update span {
     position: relative;
     transition: .2s;
     -webkit-transition: .2s;
+    background-color: whitesmoke;
 }
 
 #repo span:before, #update span:before {
