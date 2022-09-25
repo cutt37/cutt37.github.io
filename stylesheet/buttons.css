@@ -1,4 +1,4 @@
-#home, #repo, #update {
+#home, .RepoUpdate_btn {
     padding: 2%;
     font-size: 20px;
     text-align: left;
@@ -6,19 +6,22 @@
     border: 0.5px solid lightgrey;
 }
 
+.RepoUpdate_btn {
+    background-color: whitesmoke;
+}
+
 #home {
     cursor: default;
     background-color: rgb(233, 233, 233);
 } 
 
-#repo span, #update span {
+.RepoUpdate_btn span {
     position: relative;
     transition: .2s;
     -webkit-transition: .2s;
-    background-color: whitesmoke;
 }
 
-#repo span:before, #update span:before {
+.RepoUpdate_btn span:before {
     content: '\00bb';
     position: absolute;
     opacity: 0;
@@ -27,8 +30,7 @@
     -webkit-transition: .2s;
 }
 
-#archlinux, #email, 
-#translate, .video_website {
+.video_website {
     padding: 0.5%;
     margin-right: 50%;
     border-radius: 5px;

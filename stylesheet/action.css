@@ -8,8 +8,7 @@ a:active {
     color: grey
 }
 
-#repo:hover span, 
-#update:hover span {
+.RepoUpdate_btn:hover span {
     padding-left: 10%;
 }
 
@@ -19,12 +18,8 @@ a:active {
     left: 0;
 }
 
-#repo:hover, 
-#update:hover, 
-#archlinux:hover, 
-.video_website:hover, 
-#email:hover, 
-#translate:hover {
+.video_website:hover 
+.RepoUpdate_btn:hover {
     opacity: 0.75;
     background-color: lightgrey;
     box-shadow: 5px 5px 5px grey;
