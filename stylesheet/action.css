@@ -12,8 +12,7 @@ a:active {
     padding-left: 10%;
 }
 
-#repo:hover span:before, 
-#update:hover span:before {
+.RepoUpdate_btn:hover span:before {
     opacity: 1;
     left: 0;
 }
