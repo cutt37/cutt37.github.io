@@ -25,20 +25,20 @@ header {
 aside {
     width: 15%;
     float: left;
-    height: 615px;
+    height: 695px;
     background-color: rgb(190, 190, 190);
 }
 
 article {
     width: 85%;
     float: right;
-    height: 615px;
+    height: 695px;
     background-color: whitesmoke;
 }
 
 footer {
     color: white;
-    padding: 1.5%;
+    padding: 1%;
     text-align: center;
     background-color: grey;
     border-radius: 0 0 10px 10px;
