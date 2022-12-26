@@ -25,14 +25,14 @@ header {
 aside {
     width: 15%;
     float: left;
-    height: 575px;
+    height: 615px;
     background-color: rgb(190, 190, 190);
 }
 
 article {
     width: 85%;
     float: right;
-    height: 575px;
+    height: 615px;
     background-color: whitesmoke;
 }
 

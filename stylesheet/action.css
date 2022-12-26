@@ -1,3 +1,6 @@
+/* When visited a website
+ * no decoration
+ */
 a:link, a:visited {
     display: block;
     color: black;
@@ -8,17 +11,19 @@ a:active {
     color: grey
 }
 
-.RepoUpdate_btn:hover span {
+/* On hover */
+.assets_btns:hover span {
     padding-left: 10%;
 }
 
-.RepoUpdate_btn:hover span:before {
+/* Show the symbol */
+.assets_btns:hover span:before {
     opacity: 1;
     left: 0;
 }
 
 .video_website:hover,
-.RepoUpdate_btn:hover {
+.assets_btns:hover {
     opacity: 0.75;
     background-color: lightgrey;
     box-shadow: 5px 5px 5px grey;

@@ -1,4 +1,7 @@
-#home, .RepoUpdate_btn {
+/* The structure of 
+ * Home, Repo Upd button 
+ */
+#home, .assets_btns {
     padding: 2%;
     font-size: 20px;
     text-align: left;
@@ -6,28 +9,47 @@
     border: 0.5px solid lightgrey;
 }
 
-.RepoUpdate_btn {
+/* Home btn color */
+#home {
+	cursor: default;
+	background-color: rgb(233, 233, 233);
+}
+
+/* Assets btns color */
+.assets_btns {
     background-color: whitesmoke;
 }
 
-#home {
-    cursor: default;
-    background-color: rgb(233, 233, 233);
-} 
-
-.RepoUpdate_btn span {
+/* Animation of assets btns */
+.assets_btns span {
     position: relative;
     transition: .2s;
     -webkit-transition: .2s;
 }
 
-.RepoUpdate_btn span:before {
-    content: '\00bb';
+/* RU btn's symbol 
+ * structure
+ * (invisible) 
+ */
+.assets_btns span:before {
+    /* Insert a symbol */
+	content: '\00bb';
     position: absolute;
-    opacity: 0;
-    left: -5px;
+    /* Invisible */
+	opacity: 0;
+    /* Append from left */
+	left: -5px;
     transition: .2s;
     -webkit-transition: .2s;
+}
+
+/*
+ * Padding span(Useful)
+ */
+span {
+	padding-top: 4%;
+	padding-bottom: 4%;
+	padding-right: 80%;
 }
 
 .video_website {
