@@ -1,3 +1,9 @@
+/* Define a root */
+:root {
+	/* Define a variable */
+	--bd: 0.5px solid lightgrey;
+}
+
 * {
     box-sizing: border-box;
 }
@@ -8,12 +14,19 @@ body {
 }
 
 header, aside, article, footer {
-    padding: 0.5%;
+	padding: 0.5%;
+	/* Set cursor to default
+	 * (header, aside, article, footer) 
+	 */
     cursor: default;
-    border: 0.5px solid lightgrey;
+    /* Border has an outline */
+	border: var(--bd);
 }
 
 header {
+	/* Rounded corner 
+	 * Left Right
+	 */
     border-radius: 10px 10px 0 0;
     background-color: whitesmoke;
 }
@@ -38,25 +51,36 @@ article {
 }
 
 .content {
-	border: 0.5px solid lightgrey;
+	border: var(--bd);
 }
 
 .video_section {
+	width: 25%;
 	padding: 1%;
-	margin-right: 50%;
+	border: var(--bd);
+	/* Rounded corner All */
 	border-radius: 7.5px;
-	border: 0.5px solid grey;
-	background-color: rgb(190, 190, 190);
+	background-color: rgb(185, 185, 185);
+}
+
+/* Add support to phone, tablet device*/
+@media only screen and (max-width: 683px) {
+	.video_section {width: 100%; padding: 2%;}
+	#a_head{font-size: 20px}
 }
 
 footer {
+	padding: 1%;
     color: white;
-    padding: 1%;
     text-align: center;
     background-color: grey;
+	/* Rounded corner 
+	 * Bottom-Left Bottom-Right
+	 */
     border-radius: 0 0 10px 10px;
 }
 
+/* List has no style type */
 li {
     list-style-type: none;
 }

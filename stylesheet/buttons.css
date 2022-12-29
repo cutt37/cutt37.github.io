@@ -21,7 +21,7 @@
 
 /* Assets btns color */
 .assets_btns {
-    background-color: whitesmoke;
+	background-color: whitesmoke;
 }
 
 /* Animation of assets btns */
@@ -56,8 +56,12 @@ span {
 }
 
 .video_website {
-    padding: 0.5%;
+    padding: 1%;
     border: var(--bd);
     border-radius: 5px;
     background-color: rgb(210, 210, 210);
+}
+
+@media only screen and (max-width: 683px) {
+	.video_website {padding: 2%; font-size: 18px;}
 }
