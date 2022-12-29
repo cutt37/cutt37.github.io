@@ -1,5 +1,5 @@
 document.getElementById("head").innerHTML = "cutt37的网站";
-document.getElementById("footer").innerHTML = "ver_0.0.2d";
+document.getElementById("footer").innerHTML = "ver_0.0.2e";
 
 function act_normal_home(obj) {
     obj.innerHTML="首页"
