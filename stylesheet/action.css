@@ -1,3 +1,7 @@
+:root {
+	--ts: all .2s linear .1s;
+}
+
 /* When visited a website
  * no decoration
  */
@@ -22,11 +26,18 @@ a:active {
     left: 0;
 }
 
+.os_website:hover,
 .video_website:hover,
 .assets_btns:hover {
     opacity: 0.75;
     box-shadow: 5px 5px 5px grey;
-    transition: all .2s linear .075s;
+    /* Default */
+	transition: var(--ts);
+	/* Opera */
+	-o-transition: var(--ts);
+	/* Firefox */
+	-moz-transition: var(--ts);
+	/* Safari Chrome */
+	-webkit-transition: var(--ts);
 	background-color: rgb(240, 240, 240);
-    -webkit-transition: all .2s linear .075s;
 }

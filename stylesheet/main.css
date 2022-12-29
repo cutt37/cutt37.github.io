@@ -54,8 +54,8 @@ article {
 	border: var(--bd);
 }
 
-.video_section {
-	width: 25%;
+.os_section, .video_section {
+	width: 100%;
 	padding: 1%;
 	border: var(--bd);
 	/* Rounded corner All */
@@ -65,8 +65,8 @@ article {
 
 /* Add support to phone, tablet device*/
 @media only screen and (max-width: 683px) {
-	.video_section {width: 100%; padding: 1.75%;}
-	#a_head{font-size: 20px}
+	.os_section, .video_section {width: 100%; padding: 1.75%;}
+	#a_head, #b_head {font-size: 20px}
 }
 
 footer {

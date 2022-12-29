@@ -26,7 +26,12 @@
 
 /* Animation of assets btns */
 .assets_btns span {
-    position: relative;
+    /* Padding span */
+	padding-top: 4%;
+	padding-bottom: 4%;
+	padding-right: 80%;
+	/* Position relative */
+	position: relative;
     -webkit-transition: .2s;
 }
 
@@ -46,22 +51,13 @@
     -webkit-transition: .2s;
 }
 
-/*
- * Padding span(Useful)
- */
-span {
-	padding-top: 4%;
-	padding-bottom: 4%;
-	padding-right: 80%;
-}
-
-.video_website {
-    padding: 1%;
+.os_website, .video_website {
+	padding: 0.5%;
     border: var(--bd);
     border-radius: 5px;
     background-color: rgb(210, 210, 210);
 }
 
 @media only screen and (max-width: 683px) {
-	.video_website {padding: 1.75%; font-size: 18px;}
+	.os_website, .video_website {padding: 1.5%; font-size: 18px;}
 }
