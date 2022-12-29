@@ -1,5 +1,5 @@
 :root {
-	--ts: all .2s linear .1s;
+	--ts: all .15s linear .1s;
 }
 
 /* When visited a website
@@ -11,13 +11,13 @@ a:link, a:visited {
     text-decoration: none;
 }
 
-a:active {
-    color: grey
-}
+a:active {color: grey}
 
 /* On hover */
-.assets_btns:hover span {
-    padding-left: 10%;
+.assets_btns:hover span {padding-left: 10%;}
+
+@media only screen and (max-width: 683px) {
+	.assets_btns:hover span {padding-left: 17.5%}
 }
 
 /* Show the symbol */

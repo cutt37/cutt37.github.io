@@ -1,7 +1,7 @@
 /* Define a root */
 :root {
 	/* Define a variable */
-	--bd: 0.5px solid lightgrey;
+	--bdlg: 0.5px solid lightgrey;
 }
 
 * {
@@ -20,7 +20,7 @@ header, aside, article, footer {
 	 */
     cursor: default;
     /* Border has an outline */
-	border: var(--bd);
+	border: var(--bdlg);
 }
 
 header {
@@ -51,13 +51,13 @@ article {
 }
 
 .content {
-	border: var(--bd);
+	border: var(--bdlg);
 }
 
 .os_section, .video_section {
 	width: 100%;
 	padding: 1%;
-	border: var(--bd);
+	border: var(--bdlg);
 	/* Rounded corner All */
 	border-radius: 7.5px;
 	background-color: rgb(185, 185, 185);
@@ -65,7 +65,10 @@ article {
 
 /* Add support to phone, tablet device*/
 @media only screen and (max-width: 683px) {
-	.os_section, .video_section {width: 100%; padding: 1.75%;}
+	.os_section, .video_section {
+		width: 100%; 
+		padding: 1.75%;
+	}
 	#a_head, #b_head {font-size: 20px}
 }
 
