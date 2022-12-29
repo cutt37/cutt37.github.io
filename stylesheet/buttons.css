@@ -1,3 +1,7 @@
+:root {
+	--bd: 0.1px solid rgb(200, 200, 200);
+}
+
 /* The structure of 
  * Home, Repo Upd button 
  */
@@ -5,8 +9,8 @@
     padding: 2%;
     font-size: 20px;
     text-align: left;
+	border: var(--bd);
     border-radius: 10px;
-    border: 0.5px solid lightgrey;
 }
 
 /* Home btn color */
@@ -23,11 +27,10 @@
 /* Animation of assets btns */
 .assets_btns span {
     position: relative;
-    transition: .2s;
     -webkit-transition: .2s;
 }
 
-/* RU btn's symbol 
+/* A btn's symbol 
  * structure
  * (invisible) 
  */
@@ -54,8 +57,7 @@ span {
 
 .video_website {
     padding: 0.5%;
-    margin-right: 50%;
+    border: var(--bd);
     border-radius: 5px;
-    border: 0.5px solid lightgrey;
-    background-color: rgb(190, 190, 190);
+    background-color: rgb(210, 210, 210);
 }

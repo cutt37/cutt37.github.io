@@ -25,8 +25,8 @@ a:active {
 .video_website:hover,
 .assets_btns:hover {
     opacity: 0.75;
-    background-color: lightgrey;
     box-shadow: 5px 5px 5px grey;
     transition: all .15s linear .2s;
+	background-color: rgb(240, 240, 240);
     -webkit-transition: all .15s linear .2s;
 }
