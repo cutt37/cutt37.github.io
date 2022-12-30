@@ -62,4 +62,5 @@
 		padding: 1.5%; 
 		font-size: 18px;
 	}
+	#home:before {content: '';}
 }
