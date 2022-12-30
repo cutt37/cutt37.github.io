@@ -19,6 +19,8 @@
 	background-color: rgb(233, 233, 233);
 }
 
+#home:before {content: '* '}
+
 /* Assets btns color */
 .assets_btns {
 	background-color: whitesmoke;
@@ -26,13 +28,10 @@
 
 /* Animation of assets btns */
 .assets_btns span {
-    /* Padding span */
-	padding-top: 4%;
-	padding-bottom: 4%;
-	padding-right: 80%;
 	/* Position relative */
 	position: relative;
-    -webkit-transition: .2s;
+	transition: .2s;
+	-webkit-transition: .2s;
 }
 
 /* A btn's symbol 
@@ -52,7 +51,7 @@
 }
 
 .os_website, .video_website {
-	padding: 0.5%;
+	padding: 0.25%;
     border: var(--bd);
     border-radius: 5px;
     background-color: rgb(210, 210, 210);
@@ -63,5 +62,4 @@
 		padding: 1.5%; 
 		font-size: 18px;
 	}
-	.assets_btns span {padding-right: 60%;}
 }
